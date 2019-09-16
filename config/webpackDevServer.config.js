@@ -81,6 +81,7 @@ module.exports = function(proxy, allowedHost) {
       disableDotRule: true,
     },
     public: allowedHost,
+    //服务器代理
     proxy:{
       '/hehe':{
         target:'http://www.baidu.com',

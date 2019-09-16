@@ -1,12 +1,12 @@
 import React,{Component} from 'react'
 //import  './index.less'
-class Login extends Component{
+class Food extends Component{
   render(){
     return(
        <div>
-         login... 
+         user... 
        </div>
     )
   }
 }
-export default  Login
+export default  Food
